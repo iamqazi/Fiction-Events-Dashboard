@@ -1,27 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-inter;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+  border-radius: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
+.table-fixed {
+  width: 100%;
+  border-collapse: collapse;
+}
+.custom-box-shadow {
+  box-shadow: -18px 17px 22px 0px rgba(80, 65, 188, 0.14);
+}
+
+.table-fixed th,
+.table-fixed td {
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+  text-align: left;
+}
+.icon-fill-red {
+  fill: #ed5656;
+}
+.custom-tooltip {
+  background-color: #5041bc;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  width: max-content;
+  max-width: 200px;
+  z-index: 50;
+  overflow: visible;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box-shadow {
+  box-shadow: 0px 5px 15px 0px rgba(86, 67, 230, 0.14);
 }
