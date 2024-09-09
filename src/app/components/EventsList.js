@@ -94,8 +94,8 @@ export default function EventsList() {
                 <td className="px-3 py-5 text-[14px] text-[#797D8C] font-[700] whitespace-nowrap">
                   {formatDate(event.start_local)}
                 </td>
-                <td className="relative flex-grow group">
-                  <div className="relative  px-3 py-5 text-[#797D8C]  text-[14px] font-[500] ">
+                <td className="relative  group">
+                  <div className="relative px-3 py-5 text-[#797D8C] min-w-[174px] text-[14px] font-[500] ">
                     <div className="truncate  max-w-[150px] text-[14px] font-[500] text-cool-gray">
                       {event.entities?.[0]?.formatted_address ||
                         event.geo?.address?.formatted_address}

@@ -70,7 +70,7 @@ export default function FavoriteEvents() {
                   {formatDate(event.start_local)}
                 </td>
                 <td className="relative  group">
-                  <div className="relative max-w-[150px] px-3 py-5 text-[#797D8C] text-[14px] font-[500] ">
+                  <div className="relative min-w-[174px] px-3 py-5 text-[#797D8C] text-[14px] font-[500] ">
                     <div className="truncate max-w-[150px] text-[14px] font-[500] text-cool-gray">
                       {event.entities?.[0]?.formatted_address ||
                         event.geo?.address?.formatted_address}
