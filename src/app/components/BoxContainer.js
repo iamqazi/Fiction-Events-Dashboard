@@ -30,7 +30,7 @@ export default function BoxContainer() {
     );
   return (
     <div className="flex flex-col sm:flex-row gap-[24px] items-center w-full  px-[24px]">
-      <div className="w-full bg-white rounded-[24px] border-[1px] border-[#FFFFFF] p-[24px] ">
+      <div className="w-full bg-white rounded-[24px] box-shadow border-[1px] border-[#FFFFFF] p-[24px] ">
         <p className="text-[#797D8C] whitespace-nowrap text-p14px font-[600] font-inter ">
           All Events <br />
           <span className="text-[#04103B] text-[32px] font-inter font-[700] ">
@@ -38,7 +38,7 @@ export default function BoxContainer() {
           </span>
         </p>
       </div>
-      <div className="w-full bg-white rounded-[24px] border-[1px] border-[#FFFFFF] p-[24px] ">
+      <div className="w-full bg-white rounded-[24px] box-shadow border-[1px] border-[#FFFFFF] p-[24px] ">
         <p className="text-[#797D8C] whitespace-nowrap text-p14px font-[600] font-inter ">
           This Month Events
           <br />
@@ -47,7 +47,7 @@ export default function BoxContainer() {
           </span>
         </p>
       </div>
-      <div className="w-full bg-white rounded-[24px] border-[1px] border-[#FFFFFF] p-[24px] ">
+      <div className="w-full bg-white rounded-[24px] box-shadow border-[1px] border-[#FFFFFF] p-[24px] ">
         <p className="text-[#797D8C] whitespace-nowrap text-p14px font-[600] font-inter ">
           Favorite Events
           <br />

@@ -61,10 +61,10 @@ export default function EventsList() {
                   />
                 </span>
               </th>
-              <th className="px-3 py-3">Name</th>
+              <th className="px-3  py-3">Name</th>
               <th className="px-3 py-3">Time</th>
               <th className="px-3 py-3">Date</th>
-              <th className="px-3 py-3">Location</th>
+              <th className="px-3  py-3">Location</th>
               <th className="px-3 py-3"></th>
             </tr>
           </thead>
